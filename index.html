@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bysirin</title>
+<style>
+  :root {
+    --fg: #1c2024; /* slate-12 */
+    --fg-muted: #60646c; /* slate-11 */
+    --line: #d9d9e0; /* slate-6 */
+    --bg: #ffffff; /* Radix Themes 밝은 페이지 바탕 선례 */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #edeef0; /* slate-12 dark */
+      --fg-muted: #b0b4ba; /* slate-11 dark */
+      --line: #363a3f; /* slate-6 dark */
+      --bg: #111113; /* slate-1 dark */
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); }
+  body {
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 2em 1.25em 4em;
+  }
+  h1 { font-size: 1.5em; line-height: 1.3; margin: 0 0 0.5em; }
+  h2 { font-size: 1.1em; margin: 1.6em 0 0.4em; }
+  p { margin: 0 0 1em; color: var(--fg); }
+  .meta { color: var(--fg-muted); margin: 0 0 1.6em; font-size: 0.95em; }
+  .meta p { margin: 0 0 0.2em; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 2em 0; }
+  nav a { color: var(--fg); text-decoration: underline; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<h1>bysirin</h1>
+<p>작은 앱을 만들어 공개하는 자리입니다. 아래는 지금까지 낸 앱과 그 문서입니다.</p>
+<hr>
+<section>
+<h2>무드프리즘 (Moodprism)</h2>
+<p>지금 기분을 색으로 남기고, 시간이 지나면 그 색들이 모여 나만의 감정 패턴을 보여주는 무드 트래커입니다.</p>
+<nav><a href="moodprism/privacy/">개인정보처리방침</a> · <a href="moodprism/terms/">이용약관</a></nav>
+</section>
+<hr>
+<section>
+<h2>문의</h2>
+<p><a href="mailto:allissirin@gmail.com">allissirin@gmail.com</a></p>
+</section>
+</body>
+</html>
